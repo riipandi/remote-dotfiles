@@ -31,10 +31,11 @@ alias dkstopall='docker stop $(docker ps -aq) && dkps -a'
 alias dkrmall='docker rm $(docker ps -aq) && dkps -a'
 
 #---------------------------------------------------------------------------------------
-# Other SDK aliases
+# Other aliases
 #---------------------------------------------------------------------------------------
 alias doprun='(){ doppler run -- $@ ;}'
 alias dop='doppler'
 alias lg='lazygit'
 alias supa='supabase'
 alias tf='terraform'
+alias x='exit'
